@@ -1,1 +1,1 @@
-I make this projects only for practicing
+I made these projects only for practicing
