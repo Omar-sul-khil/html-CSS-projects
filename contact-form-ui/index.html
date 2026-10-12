@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f6fb">
+  <title>Get in touch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="form-card" aria-labelledby="form-title">
+      <div class="eyebrow"><span class="status-dot"></span> WE’RE HERE TO HELP</div>
+      <h1 id="form-title">Let’s talk.</h1>
+      <p class="intro">Have a question or an idea? Send us a note and we’ll get back to you soon.</p>
+
+      <form action="#" method="post">
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Alex Morgan" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="alex@example.com" autocomplete="email" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="subject">What’s this about?</label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Choose a topic</option>
+            <option value="question">A general question</option>
+            <option value="project">A project idea</option>
+            <option value="support">Help and support</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">Your message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us a little about what you have in mind…" required></textarea>
+        </div>
+
+        <button type="submit">Send message <span aria-hidden="true">→</span></button>
+        <p class="privacy-note">We’ll only use your details to reply to your message.</p>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

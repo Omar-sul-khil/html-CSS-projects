@@ -1,0 +1,34 @@
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+
+}
+.container {
+    height: 260px;
+    width: 299px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: darkslateblue;
+    text-align: center;
+    color: white;
+    box-shadow: 6px 6px 3px rgb(136, 78, 78);
+    font-family: sans-serif;
+}
+    #text {
+    display: inline-block;
+    padding: 5px;
+}
+.btn {
+    display: block;
+    padding: 5px;
+    margin-top: 10px;
+    width: 170px;
+    background-color: coral;
+    border: 1px solid coral;
+    margin-left: 65px;
+}
+.btn:hover {
+    opacity: 0.8;
+}

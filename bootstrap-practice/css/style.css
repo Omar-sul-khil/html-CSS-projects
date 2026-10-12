@@ -1,0 +1,40 @@
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+.links {
+    text-decoration: none;
+    color: black;
+}
+.linkedin {
+    color: #1877f2;
+}
+.instagram {
+    color: #e4405f;
+}
+.youtube {
+    color: #ff0000;
+}
+.facebook {
+    color: #1877f2;
+}
+#map {
+    display: block;
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+}
+.showcase-image {
+    display: block;
+    width: 50%;
+    margin: 1.5rem auto 0;
+}
+@media (min-width: 576px) {
+    .showcase-image {
+        width: 25%;
+        margin: 0;
+    }
+}

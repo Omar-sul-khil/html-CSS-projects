@@ -1,0 +1,51 @@
+body {
+            padding: 40px;
+            margin: 0;
+        }
+        .chat-container {
+            max-width: 700px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .message-row {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            width: 100%;
+        }
+        .message-row--me {
+            flex-direction: row-reverse;
+        }
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: yellow; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.9rem;
+            font-weight: bold;
+            flex-shrink: 0; 
+        }
+
+        .bubble {
+            padding: 12px 20px;
+            border-radius: 16px;
+            font-size: 0.95rem;
+            max-width: 70%; 
+        }
+        
+        .message-row--others .bubble {
+            background-color: gray;
+            color: black;
+        }
+
+        .message-row--me .bubble {
+            background-color: purple;
+            color: whitesmoke;
+        }
